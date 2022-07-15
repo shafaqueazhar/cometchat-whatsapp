@@ -9,7 +9,7 @@ export default function Register(props) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    let authKey = "3dbb7f5703362a6c3abd6f5e8974d5ef6bac4645";
+    let authKey = "0dec2d9dd932a629b4cfb0dab89567d6a4cd4d82";
     var uid = phone;
     var name = userName + " (" + phone + ")";
 
@@ -23,7 +23,7 @@ export default function Register(props) {
 
         // login
         var UID = phone;
-        var authKey = "3dbb7f5703362a6c3abd6f5e8974d5ef6bac4645";
+        var authKey = "0dec2d9dd932a629b4cfb0dab89567d6a4cd4d82";
 
         CometChat.login(UID, authKey).then(
           (User) => {

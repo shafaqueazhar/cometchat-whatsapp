@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { CometChat } from "@cometchat-pro/chat";
 
-const appID = "324411fcdc5bd35";
+const appID = "214387361da3bcd4";
 const region = "us";
 const appSetting = new CometChat.AppSettingsBuilder()
   .subscribePresenceForAllUsers()
